@@ -6,7 +6,7 @@ import SEO from '../components/seo'
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Baggage"
+      title="Baggage."
       keywords={[
         `gatsby`,
         `application`,
@@ -23,7 +23,6 @@ const IndexPage = () => (
         height: '100vh',
         overflow: 'auto',
         placeContent: 'center center',
-        // width: `100vw`,
       }}
     >
       <h1 style={{ color: 'white', fontSize: '5em' }}>Baggage.</h1>
